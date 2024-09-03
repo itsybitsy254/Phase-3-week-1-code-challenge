@@ -30,7 +30,7 @@ print(reverse_string("python"))
 def count_vowels(text):
     
     #This function returns the count of vowels (a, e, i, o, u) in the string.
-    vowels = 'aeiouAEIOU'
+    vowels = 'aeiou'
     count = 0
     for char in text:
         if char in vowels:
